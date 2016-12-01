@@ -62,8 +62,8 @@ alias vrld='vagrant reload && vagrant ssh'
 alias vssh='vagrant ssh'
 
 # Docker
-alias dlogin='docker-login '
-alias dlogincms='docker-login cmsdocker_web_1'
+alias dlogin='docker-login.sh '
+alias dlogincms='docker-login.sh cmsdocker_web_1'
 alias dup='docker-compose up -d && dlogin '
 alias dupcms='docker-compose up -d && dlogincms'
 alias dkill='docker-compose kill'
