@@ -48,10 +48,14 @@ alias ports='netstat -tulanp'
 alias rao='remote add origin'
 alias ac='!git add . && git commit -am'
 alias pushitgood='push -u origin --all'
+alias pullbranches='fetch --prune --all'
 alias undo-commit='reset --soft HEAD~1'
 alias cm='commit -m'
 alias cam='commit -a -m'
 alias ca='commit -a --verbose'
+
+# IDE
+alias a.='atom .'
 
 # Vagrant
 alias vup='vagrant up && vagrant ssh'
