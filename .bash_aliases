@@ -53,6 +53,7 @@ alias undo-commit='reset --soft HEAD~1'
 alias cm='commit -m'
 alias cam='commit -a -m'
 alias ca='commit -a --verbose'
+alias gpullbranches='git remote update origin --prune'
 
 # IDE
 alias a.='atom .'
