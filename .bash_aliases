@@ -75,6 +75,7 @@ alias dupcms='dockup -d && dlogincms'
 alias dkill='docker-compose kill'
 alias drmall='docker rm $(docker ps -aq)'
 alias dlist='docker ps -a'
+alias dbuild='docker-compose up --build'
 
 # Bash into running container
 dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
