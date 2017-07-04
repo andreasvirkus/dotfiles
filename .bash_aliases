@@ -54,6 +54,7 @@ alias cm='commit -m'
 alias cam='commit -a -m'
 alias ca='commit -a --verbose'
 alias gpullbranches='git remote update origin --prune'
+alias commitlog='git log origin/master..HEAD'
 
 # IDE
 alias a.='atom .'
