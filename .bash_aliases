@@ -47,17 +47,18 @@ alias ports='netstat -tulanp'
 # Git
 alias rao='remote add origin'
 alias ac='!git add . && git commit -am'
+alias gst='git status'
+alias gd='git diff'
+alias gdc='git diff --cached'
 alias pushitgood='push -u origin --all'
 alias pullbranches='fetch --prune --all'
 alias undo-commit='reset --soft HEAD~1'
-alias cm='commit -m'
-alias cam='commit -a -m'
-alias ca='commit -a --verbose'
-alias gpullbranches='git remote update origin --prune'
-alias commitlog='git log origin/master..HEAD'
+alias cm='git commit -m'
+alias cam='git commit -a -m'
+alias ca='git commit -a --verbose'
 
 # IDE
-alias a.='atom .'
+alias c.='code .'
 
 # Vagrant
 alias vup='vagrant up && vagrant ssh'
@@ -69,14 +70,10 @@ alias vssh='vagrant ssh'
 
 # Docker
 alias dlogin='dbash '
-alias dlogincms='dbash cmsdocker_web_1'
-alias dockup='docker-compose up -d'
-alias dup='dockup && dlogin '
-alias dupcms='dockup -d && dlogincms'
+alias dup='docker-compose up -d && dlogin '
 alias dkill='docker-compose kill'
 alias drmall='docker rm $(docker ps -aq)'
 alias dlist='docker ps -a'
-alias dbuild='docker-compose up --build'
 
 # Bash into running container
 dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
