@@ -46,10 +46,11 @@ alias ports='netstat -tulanp'
 
 # Git
 alias rao='remote add origin'
-alias ac='!git add . && git commit -am'
+alias acm='git add . && git commit -am'
 alias gst='git status'
 alias gd='git diff'
 alias gdc='git diff --cached'
+alias gco='git checkout'
 alias pushitgood='push -u origin --all'
 alias pullbranches='fetch --prune --all'
 alias undo-commit='reset --soft HEAD~1'
@@ -59,6 +60,10 @@ alias ca='git commit -a --verbose'
 
 # IDE
 alias c.='code .'
+
+# npm workflow
+alias dev='npm run dev'
+alias strt='npm start'
 
 # Vagrant
 alias vup='vagrant up && vagrant ssh'
@@ -70,7 +75,9 @@ alias vssh='vagrant ssh'
 
 # Docker
 alias dlogin='dbash '
+alias dlogincms='dbash cmsos3_web_1'
 alias dup='docker-compose up -d && dlogin '
+alias dupcms='docker-compose up -d && dlogincms'
 alias dkill='docker-compose kill'
 alias drmall='docker rm $(docker ps -aq)'
 alias dlist='docker ps -a'
