@@ -75,9 +75,7 @@ alias vssh='vagrant ssh'
 
 # Docker
 alias dlogin='dbash '
-alias dlogincms='dbash cmsos3_web_1'
 alias dup='docker-compose up -d && dlogin '
-alias dupcms='docker-compose up -d && dlogincms'
 alias dkill='docker-compose kill'
 alias drmall='docker rm $(docker ps -aq)'
 alias dlist='docker ps -a'
