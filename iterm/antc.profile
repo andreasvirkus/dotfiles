@@ -17,19 +17,23 @@
     "Blue Component" : 0.8971381187438965,
     "Red Component" : 0.8402875065803528
   },
-  "Horizontal Spacing" : 1,
+  "Guid" : "54377401-06D5-40BA-8D48-CEF22D720A54",
   "Bold Color" : {
     "Green Component" : 0.8579363226890564,
     "Blue Component" : 0.8971381187438965,
     "Red Component" : 0.8402875065803528
   },
   "Custom Directory" : "Yes",
-  "Ansi 4 Color" : {
-    "Green Component" : 0.5180450081825256,
-    "Blue Component" : 0.8245406746864319,
-    "Red Component" : 0.165672242641449
+  "Ansi 3 Color" : {
+    "Green Component" : 0.7276122570037842,
+    "Blue Component" : 0.06017711758613586,
+    "Red Component" : 0.9270648956298828
   },
-  "Right Option Key Sends" : 0,
+  "Ansi 5 Color" : {
+    "Green Component" : 0.3521518707275391,
+    "Blue Component" : 0.717879593372345,
+    "Red Component" : 0.3077093362808228
+  },
   "Rows" : 25,
   "Default Bookmark" : "No",
   "Blend" : 0.5372283153044871,
@@ -67,19 +71,21 @@
   "Working Directory" : "\/Users\/andreas.virkus\/code",
   "Use Tab Color" : false,
   "Blinking Cursor" : false,
-  "Space" : 0,
+  "Disable Window Resizing" : true,
   "Sync Title" : false,
   "Prompt Before Closing 2" : false,
   "BM Growl" : false,
   "Command" : "\/bin\/bash -l",
   "Description" : "Default",
+  "Space" : 0,
   "Mouse Reporting" : true,
-  "Disable Window Resizing" : true,
   "Screen" : -1,
   "Selection Color" : {
-    "Green Component" : 0.1234357804059982,
-    "Blue Component" : 0.123437874019146,
-    "Red Component" : 0.1234394758939743
+    "Red Component" : 0.95684814453125,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.8116039223968983,
+    "Alpha Component" : 1,
+    "Green Component" : 0.9130771558003082
   },
   "Only The Default BG Color Uses Transparency" : false,
   "Columns" : 80,
@@ -96,14 +102,18 @@
   "Use Bold Font" : true,
   "Option Key Sends" : 0,
   "Selected Text Color" : {
-    "Green Component" : 0.8579363226890564,
-    "Blue Component" : 0.8971381187438965,
-    "Red Component" : 0.8402875065803528
+    "Red Component" : 0.313720703125,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.2700824290513992,
+    "Alpha Component" : 1,
+    "Green Component" : 0.3006006998068369
   },
   "Background Color" : {
-    "Green Component" : 0.07621769607067108,
-    "Blue Component" : 0.07621898502111435,
-    "Red Component" : 0.07621997594833374
+    "Red Component" : 0.1450980392156863,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.1450980392156863,
+    "Alpha Component" : 1,
+    "Green Component" : 0.1450980392156863
   },
   "Character Encoding" : 4,
   "Ansi 11 Color" : {
@@ -275,7 +285,7 @@
       "Action" : 10
     }
   },
-  "Window Type" : 12,
+  "Window Type" : 0,
   "Blur Radius" : 4.622746394230766,
   "Cursor Type" : 2,
   "Background Image Location" : "",
@@ -308,7 +318,7 @@
     "Blue Component" : 0.062745101749897,
     "Red Component" : 0.062745101749897
   },
-  "Name" : "antc",
+  "Name" : "",
   "Minimum Contrast" : 0,
   "Shortcut" : "",
   "Cursor Color" : {
@@ -322,21 +332,7 @@
     "Red Component" : 0.1234394758939743
   },
   "Transparency" : 0.04193786982248521,
-  "Ansi 1 Color" : {
-    "Green Component" : 0.06713506579399109,
-    "Blue Component" : 0.09561973810195923,
-    "Red Component" : 0.9717077016830444
-  },
-  "Ansi 3 Color" : {
-    "Green Component" : 0.7276122570037842,
-    "Blue Component" : 0.06017711758613586,
-    "Red Component" : 0.9270648956298828
-  },
-  "Ansi 2 Color" : {
-    "Green Component" : 0.7738356590270996,
-    "Blue Component" : 0.3682300448417664,
-    "Red Component" : 0.1760019659996033
-  },
+  "Horizontal Spacing" : 1,
   "Link Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
@@ -344,8 +340,18 @@
     "Alpha Component" : 1,
     "Green Component" : 0.3591606020927429
   },
+  "Ansi 4 Color" : {
+    "Green Component" : 0.5180450081825256,
+    "Blue Component" : 0.8245406746864319,
+    "Red Component" : 0.165672242641449
+  },
+  "Right Option Key Sends" : 0,
   "Use Non-ASCII Font" : false,
-  "Guid" : "54377401-06D5-40BA-8D48-CEF22D720A54",
+  "Ansi 2 Color" : {
+    "Green Component" : 0.7738356590270996,
+    "Blue Component" : 0.3682300448417664,
+    "Red Component" : 0.1760019659996033
+  },
   "Ansi 8 Color" : {
     "Green Component" : 0.8579363226890564,
     "Blue Component" : 0.8971381187438965,
@@ -357,9 +363,9 @@
     "Red Component" : 0.8716156482696533
   },
   "Normal Font" : "Monaco 18",
-  "Ansi 5 Color" : {
-    "Green Component" : 0.3521518707275391,
-    "Blue Component" : 0.717879593372345,
-    "Red Component" : 0.3077093362808228
+  "Ansi 1 Color" : {
+    "Green Component" : 0.06713506579399109,
+    "Blue Component" : 0.09561973810195923,
+    "Red Component" : 0.9717077016830444
   }
 }
