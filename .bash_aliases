@@ -78,8 +78,11 @@ alias vssh='vagrant ssh'
 # Docker
 alias dlogin='dbash '
 alias dup='docker-compose up -d && dlogin '
+alias dbuild='docker-compose up -d --build'
 alias dkill='docker-compose kill'
 alias drmall='docker rm $(docker ps -aq)'
+alias drmexited='docker rm $(docker ps -q -f "status=exited")'
+alias drmdangling='docker rmi $(docker images -q -f "dangling=true")'
 alias dlist='docker ps -a'
 
 # Bash into running container
