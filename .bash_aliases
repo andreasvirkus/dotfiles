@@ -53,6 +53,7 @@ alias gstdirs='find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo {} && c
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gco='git checkout'
+alias gver='git tag -l --sort=v:refname'
 alias pushitgood='push -u origin --all'
 alias gbranches='git fetch --prune --all'
 alias gundo='git reset --soft HEAD~1'
