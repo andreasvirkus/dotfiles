@@ -64,6 +64,9 @@ alias ca='git commit -a --verbose'
 # IDE
 alias c.='code .'
 
+# Static server
+alias static='python -m SimpleHTTPServer 8000'
+
 # npm workflow
 alias dev='npm run dev'
 alias strt='npm start'
