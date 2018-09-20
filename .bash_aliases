@@ -44,6 +44,9 @@ alias ping='ping -c 5'
 alias fastping='ping -c 100 -s.2'
 alias ports='netstat -tulanp'
 
+# NPM - you really need just the one
+alias npmfuckit='rm -rf node_modules package-lock.json && npm cache clean --force && npm i'
+
 # Git
 alias rao='remote add origin'
 alias acm='git add . && git commit -am'
