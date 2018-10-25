@@ -71,7 +71,7 @@ alias c.='code .'
 alias static='python -m SimpleHTTPServer 8000'
 
 # npm workflow
-alias dev='npm run dev'
+alias dev='npm run dev || npm run serve'
 alias strt='npm start'
 
 # Vagrant
