@@ -12,8 +12,10 @@ My ever-so-handy dotfiles
 5. Clone this repo into `~/code`
 6. Copy the necessary config files to their homes
 ```
-cp slate/.slate.js ~/.slate.js
+cp slate/.slate.js ~/
 cp .bash* ~/
 ```
 7. Configure iTerm2 to use the profile file from this repo
 8. Configure Sublime, tmux, vim plugins
+
+**Note** - In order for Slate to work, enable it via `System Preferences > Security & Privacy > Privacy tab > Accessibility`
