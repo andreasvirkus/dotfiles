@@ -15,7 +15,20 @@ My ever-so-handy dotfiles
 cp slate/.slate.js ~/
 cp .bash* ~/
 ```
-7. Configure iTerm2 to use the profile file from this repo
-8. Configure Sublime, tmux, vim plugins
+7. Update bash to v5 
+```
+brew install bash
+# Add the new shell to the list of allowed shells
+sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+# Change to the new shell
+chsh -s /usr/local/bin/bash
+# And now restart iTerm
+```
+8. Configure iTerm2 to use the profile file from this repo
+```
+cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
+```
+9. Configure Sublime plugins & themes
+10. Configure tmux & vim config files and plugins
 
 **Note** - In order for Slate to work, enable it via `System Preferences > Security & Privacy > Privacy tab > Accessibility`
