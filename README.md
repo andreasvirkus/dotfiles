@@ -44,3 +44,5 @@ cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
 - Add `Cmd + .` as `App shortcuts` for the command `Sleep` in `System Preferences > Keyboard > Shortcuts`
 - Configure Dock (do not display recently opened applications)
 - Configure Screenshots via the options menu by accessing it with `Cmd + Shift + 5` (disable the floating thumbnail and set `~/Pictures/screenshots` as the destination folder)
+- Add margins to iTerm - https://imgur.com/a/k2WOf
+- Run `echo 'source "$HOME/.bashrc"' >> ~/.bash_profile` so `tmux` would also source `.bashrc`
