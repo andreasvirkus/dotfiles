@@ -52,7 +52,7 @@ alias rao='remote add origin'
 alias acm='git add . && git commit -am'
 alias gst='git status'
 # Gets git status for immediate subdirs
-alias gstdirs='find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo {} && cd {} && git status -s && echo)' \;'
+alias gstdirs='find . -maxdepth 1 -mindepth 1 -type d -exec sh -c "(echo {} && cd {} && git status -s && echo)" \;'
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gco='git checkout'
