@@ -4,7 +4,7 @@ My ever-so-handy dotfiles
 ## Fresh setup (MacOS)
 
 1. Open up Terminal
-2. Install `homebrew` 
+2. Install `homebrew`
 3. Tap into `cask` via `brew tap  caskroom/cask`
 4. Brew 'em up! `brew cask install iterm2 slate fliqlo tmux sublime-text 1clipboard`
 4. Generate a new SSH key and save it to GitHub, GitLab
@@ -46,3 +46,4 @@ cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
 - Configure Screenshots via the options menu by accessing it with `Cmd + Shift + 5` (disable the floating thumbnail and set `~/Pictures/screenshots` as the destination folder)
 - Add margins to iTerm - https://imgur.com/a/k2WOf
 - Run `echo 'source "$HOME/.bashrc"' >> ~/.bash_profile` so `tmux` would also source `.bashrc`
+- Set up git auto-completion `brew install git bash-completion` (`.bashrc` takes care of the rest <3)
