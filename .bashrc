@@ -113,6 +113,7 @@ export PATH=/usr/local/bin:$PATH
     [ -f "$(brew --prefix)/etc/bash_completion.d/git-completion.bash" ] && \
         . $(brew --prefix)/etc/bash_completion.d/git-completion.bash
 }
+source $(brew --prefix)/etc/bash_completion
 
 # User scripts
 export PATH=$PATH:~/bin

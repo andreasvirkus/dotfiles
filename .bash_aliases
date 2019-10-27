@@ -44,8 +44,12 @@ alias ping='ping -c 5'
 alias fastping='ping -c 100 -s.2'
 alias ports='netstat -tulanp'
 
-# NPM - you really need just the one
+# npm - you really need just the one
 alias npmfuckit='rm -rf node_modules package-lock.json && npm cache clean --force && npm i'
+# npm workflow
+alias dev='npm run dev || npm run serve'
+alias d='dev'
+alias strt='npm start'
 
 # Git
 alias rao='remote add origin'
@@ -69,10 +73,6 @@ alias c.='code .'
 
 # Static server
 alias static='python -m SimpleHTTPServer 8000'
-
-# npm workflow
-alias dev='npm run dev || npm run serve'
-alias strt='npm start'
 
 # Vagrant
 alias vup='vagrant up && vagrant ssh'

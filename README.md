@@ -8,14 +8,23 @@ My ever-so-handy dotfiles
 3. Tap into `cask` via `brew tap  caskroom/cask`
 4. Brew 'em up! `brew cask install iterm2 slate fliqlo tmux sublime-text 1clipboard`
 4. Generate a new SSH key and save it to GitHub, GitLab
+```
+$ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com"
+```
 5. `mkdir ~/code`
 5. Clone this repo into `~/code`
-6. Copy the necessary config files to their homes
 ```
-cp slate/.slate.js ~/
-cp .bash* ~/
+$ cd code && git clone git@github.com:andreasvirkus/dotfiles.git
 ```
-7. Update bash to v5 
+6. Symlink config files
+```
+$ ln -s ~/code/dotfiles/slate/.slate.js ~/.slate.js
+$ ln -s ~/code/dotfiles/.bashrc ~/.bashrc
+$ ln -s ~/code/dotfiles/.bash_aliases ~/.bash_aliases
+$ ln -s ~/code/dotfiles/.vimrc ~/.vimrc
+$ ln -s ~/code/dotfiles/.tmux.conf ~/.tmux.conf
+```
+7. Update bash to v5
 ```
 brew install bash
 # Add the new shell to the list of allowed shells
