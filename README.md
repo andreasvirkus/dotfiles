@@ -41,7 +41,11 @@ cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
 10. Configure tmux & vim config files and plugins
 11. Install Kap, Spotify, Firefox
 12. Turn on FileVault from `System Preferences > Security & Privacy`
-
+13. Configure automatic wallpaper change from `System Preferences > Desktop & Screen Saver` &
+then add the `./change-wallpaper.scrpt` to Automator as a new Quick Action. Now add a keyboard
+shortcut to it via `System Preferences > Keyboard > Shortcuts` and select `Services` from
+the sidebar. Previously used `Cmd + Shift + 8` as the shortcut. Also configure the privacy 
+settings for Automator & Finder; see more https://apple.stackexchange.com/a/276839/254680
 **Note** - In order for Slate to work, enable it via `System Preferences > Security & Privacy > Privacy tab > Accessibility`
 
 ## Tweaks
