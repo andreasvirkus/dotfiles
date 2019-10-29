@@ -115,5 +115,7 @@ export PATH=/usr/local/bin:$PATH
 }
 source $(brew --prefix)/etc/bash_completion
 
+export PROMPT_COMMAND="history -a; history -n"
+
 # User scripts
 export PATH=$PATH:~/bin
