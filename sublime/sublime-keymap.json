@@ -1,0 +1,7 @@
+[
+  { "keys": ["super+w"], "command": "close_file" },
+  { "keys": ["shift+alt+up"], "command": "swap_line_up" },
+  { "keys": ["shift+alt+down"], "command": "swap_line_down" },
+  { "keys": ["ctrl+tab"], "command": "next_view" },
+  { "keys": ["ctrl+shift+tab"], "command": "prev_view" }
+]

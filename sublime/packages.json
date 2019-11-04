@@ -1,0 +1,18 @@
+{
+  "bootstrapped": true,
+  "installed_packages": [
+    "Agila Theme",
+    "ayu",
+    "Duplicate Lines",
+    "FileManager",
+    "Material Theme",
+    "Package Control",
+    "Predawn",
+    "RainbowBrackets",
+    "Sass",
+    "SublimeLinter-annotations",
+    "Theme - Asphalt",
+    "TodoReview",
+    "Vue Syntax Highlight"
+  ]
+}
