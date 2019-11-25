@@ -18,7 +18,6 @@ code --install-extension gerane.Theme-peel
 code --install-extension gerane.Theme-TomorrowNight
 code --install-extension gerane.Theme-TwoStones
 code --install-extension jamesmaj.easy-icons
-code --install-extension ms-vscode.atom-keybindings
 code --install-extension octref.vetur
 code --install-extension sleistner.vscode-fileutils
 code --install-extension vangware.dark-plus-material
