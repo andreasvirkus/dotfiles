@@ -117,5 +117,7 @@ source $(brew --prefix)/etc/bash_completion
 
 export PROMPT_COMMAND="history -a; history -n"
 
+eval "$(direnv hook bash)"
+
 # User scripts
 export PATH=$PATH:~/bin
