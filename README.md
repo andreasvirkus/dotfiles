@@ -11,7 +11,7 @@ $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_
 ```
 4. Tap into `cask` via `brew tap homebrew/cask-cask homebrew/cask-fonts`
 5. Brew 'em up! 
-  - `brew install git bash-completion direnv node yarn`
+  - `brew install git bash-completion direnv deno node yarn`
   - `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack discord google-chrome font-fira-code`
   - To brew `go` - https://ahmadawais.com/install-go-lang-on-macos-with-homebrew/
 6. `mkdir ~/code`
