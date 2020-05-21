@@ -1,5 +1,7 @@
 {
-    "workbench.colorTheme": "Material Theme Darker",
+    // "workbench.colorTheme": "Material Theme Darker",
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "workbench.sideBar.location": "right",
     "editor.fontSize": 16,
     "typescript.check.npmIsInstalled": false,
     "files.autoSave": "onFocusChange",
