@@ -10,7 +10,10 @@ My ever-so-handy dotfiles
 $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_rsa
 ```
 4. Tap into `cask` via `brew tap homebrew/cask-cask homebrew/cask-fonts`
-5. Brew 'em up! `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack discord google-chrome font-fira-code`
+5. Brew 'em up! 
+  - `brew install git bash-completion direnv`
+  - `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack discord google-chrome font-fira-code`
+  - To brew `go` - https://ahmadawais.com/install-go-lang-on-macos-with-homebrew/
 6. `mkdir ~/code`
 7. Clone this repo into `~/code`
 ```
@@ -62,4 +65,6 @@ settings for Automator & Finder; see more https://apple.stackexchange.com/a/2768
 - Configure Screenshots via the options menu by accessing it with `Cmd + Shift + 5` (disable the floating thumbnail and set `~/Pictures/screenshots` as the destination folder)
 - Add margins to iTerm - https://imgur.com/a/k2WOf
 - Run `echo 'source "$HOME/.bashrc"' >> ~/.bash_profile` so `tmux` would also source `.bashrc`
-- Set up git auto-completion `brew install git bash-completion` (`.bashrc` takes care of the rest <3)
+- Pimp that iTerm
+  - Minimal style: https://www.felixjung.io/posts/pretty-iterm2-with-a-modern-titlebar
+  - Get themes from https://iterm2colorschemes.com/
