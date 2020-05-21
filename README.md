@@ -41,7 +41,7 @@ cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
 12. Configure tmux & vim config files and plugins
 13. Install Kap, Spotify, Firefox Developer Edition, Chrome, Karabiner Elements, Slack, Discord, Tuple
 14. Turn on FileVault from `System Preferences > Security & Privacy`
-15. Configure automatic wallpaper change from `System Preferences > Desktop & Screen Saver` &
+15. Configure Fliqlo & automatic wallpaper change from `System Preferences > Desktop & Screen Saver` &
 then add the `./change-wallpaper.scrpt` to Automator as a new Quick Action. Now add a keyboard
 shortcut to it via `System Preferences > Keyboard > Shortcuts` and select `Services` from
 the sidebar. Previously used `Cmd + Shift + 8` as the shortcut. Also configure the privacy 
