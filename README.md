@@ -5,8 +5,8 @@ My ever-so-handy dotfiles
 
 1. Open up Terminal
 2. Install `homebrew`
-3. Tap into `cask` via `brew tap  caskroom/cask`
-4. Brew 'em up! `brew cask install iterm2 slate fliqlo tmux sublime-text 1clipboard`
+3. Tap into `cask` via `brew tap homebrew/cask-cask`
+4. Brew 'em up! `brew cask install iterm2 slate fliqlo tmux visual-studio-code sublime-text 1clipboard`
 4. Generate a new SSH key and save it to GitHub, GitLab
 ```
 $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com"
@@ -37,9 +37,9 @@ chsh -s /usr/local/bin/bash
 ```
 cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
 ```
-9. Configure Sublime plugins & themes
+9. Configure ~Sublime plugins~ VSCode extensions & themes
 10. Configure tmux & vim config files and plugins
-11. Install Kap, Spotify, Firefox
+11. Install Kap, Spotify, Firefox Developer Edition, Chrome, Karabiner Elements
 12. Turn on FileVault from `System Preferences > Security & Privacy`
 13. Configure automatic wallpaper change from `System Preferences > Desktop & Screen Saver` &
 then add the `./change-wallpaper.scrpt` to Automator as a new Quick Action. Now add a keyboard
@@ -50,12 +50,17 @@ settings for Automator & Finder; see more https://apple.stackexchange.com/a/2768
 
 ## Tweaks
 
-- Disable spelling corrections, etc. in `System Preferences > Keyboard`
-- Add `Estonian` as a keyboard layout
-- Disable auto-dimming of displays
+- Keyboard
+  - Disable spelling corrections, etc. in `System Preferences > Keyboard > Text`
+  - Add `Estonian` as a keyboard layout
+  - Remap Caps Lock to Ctrl
+- Display
+  - Set external display as primary by dragging the white bar ontop of the native display in `Arrangements` panel (I know you always forget)
+  - Disable auto-dimming of displays
 - Set default view settings in Finder via `Cmd+J` (list, sort by name, etc.)
 - Add `Cmd + .` as `App shortcuts` for the command `Sleep` in `System Preferences > Keyboard > Shortcuts`
-- Configure Dock (do not display recently opened applications)
+- Configure Dock (do not display recently opened applications + auto-hide)
+- Make menu-bar auto-hide
 - Configure Screenshots via the options menu by accessing it with `Cmd + Shift + 5` (disable the floating thumbnail and set `~/Pictures/screenshots` as the destination folder)
 - Add margins to iTerm - https://imgur.com/a/k2WOf
 - Run `echo 'source "$HOME/.bashrc"' >> ~/.bash_profile` so `tmux` would also source `.bashrc`
