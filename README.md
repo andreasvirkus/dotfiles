@@ -34,10 +34,7 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 # And now restart iTerm
 ```
-10. Configure iTerm2 to use the profile file from this repo
-```
-cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
-```
+10. Silence the "Last login" messages of MOTD (`touch ~/.hushlogin`)
 11. Configure [VSCode extensions & themes](./vscode) & install [Fira code](https://github.com/tonsky/FiraCode)
 12. Turn on FileVault from `System Preferences > Security & Privacy`
 13. Install Firefox Developer Edition, Karabiner Elements, Tuple
