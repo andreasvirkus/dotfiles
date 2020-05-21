@@ -10,7 +10,7 @@ My ever-so-handy dotfiles
 $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_rsa
 ```
 4. Tap into `cask` via `brew tap homebrew/cask-cask` (Not needed anymore? Might be bundled with `homebrew`)
-5. Brew 'em up! `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack`
+5. Brew 'em up! `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack discord google-chrome`
 6. `mkdir ~/code`
 7. Clone this repo into `~/code`
 ```
@@ -19,7 +19,7 @@ $ cd code && git clone git@github.com:andreasvirkus/dotfiles.git
 8. Symlink config files
 ```
 $ ln -s ~/code/dotfiles/slate/.slate.js ~/.slate.js
-$ ln -s ~/code/dotfiles/.bashrc ~/.bashrc
+$ ln -s ~/code/dotfiles/.profile ~/.profile
 $ ln -s ~/code/dotfiles/.bash_aliases ~/.bash_aliases
 $ ln -s ~/code/dotfiles/.vimrc ~/.vimrc
 $ ln -s ~/code/dotfiles/.tmux.conf ~/.tmux.conf
@@ -37,17 +37,16 @@ chsh -s /usr/local/bin/bash
 ```
 cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
 ```
-11. Configure ~Sublime plugins~ VSCode extensions & themes
-12. Configure tmux & vim config files and plugins
-13. Install Firefox Developer Edition, Chrome, Karabiner Elements, Discord, Tuple
+11. Configure [VSCode extensions & themes](./vscode)
+12. Turn on FileVault from `System Preferences > Security & Privacy`
+13. Install Firefox Developer Edition, Karabiner Elements, Tuple
 14. Install LastPass and 1Password, etc. on both browsers
-14. Turn on FileVault from `System Preferences > Security & Privacy`
 15. Configure Fliqlo & automatic wallpaper change from `System Preferences > Desktop & Screen Saver` &
 then add the `./change-wallpaper.scrpt` to Automator as a new Quick Action. Now add a keyboard
 shortcut to it via `System Preferences > Keyboard > Shortcuts` and select `Services` from
 the sidebar. Previously used `Cmd + Shift + 8` as the shortcut. Also configure the privacy 
 settings for Automator & Finder; see more https://apple.stackexchange.com/a/276839/254680
-**Note** - In order for Slate to work, enable it via `System Preferences > Security & Privacy > Privacy tab > Accessibility`
+16. In order for Slate to work, enable it via `System Preferences > Security & Privacy > Privacy tab > Accessibility`
 
 ## Tweaks
 
