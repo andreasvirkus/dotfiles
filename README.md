@@ -10,7 +10,7 @@ My ever-so-handy dotfiles
 $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_rsa
 ```
 4. Tap into `cask` via `brew tap homebrew/cask-cask` (Not needed anymore? Might be bundled with `homebrew`)
-5. Brew 'em up! `brew cask install iterm2 slate fliqlo tmux visual-studio-code sublime-text 1clipboard`
+5. Brew 'em up! `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack`
 6. `mkdir ~/code`
 7. Clone this repo into `~/code`
 ```
@@ -39,7 +39,7 @@ cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
 ```
 11. Configure ~Sublime plugins~ VSCode extensions & themes
 12. Configure tmux & vim config files and plugins
-13. Install Kap, Spotify, Firefox Developer Edition, Chrome, Karabiner Elements, Slack, Discord, Tuple
+13. Install Firefox Developer Edition, Chrome, Karabiner Elements, Discord, Tuple
 14. Install LastPass and 1Password, etc. on both browsers
 14. Turn on FileVault from `System Preferences > Security & Privacy`
 15. Configure Fliqlo & automatic wallpaper change from `System Preferences > Desktop & Screen Saver` &
