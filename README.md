@@ -9,8 +9,8 @@ My ever-so-handy dotfiles
 ```
 $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_rsa
 ```
-4. Tap into `cask` via `brew tap homebrew/cask-cask` (Not needed anymore? Might be bundled with `homebrew`)
-5. Brew 'em up! `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack discord google-chrome`
+4. Tap into `cask` via `brew tap homebrew/cask-cask homebrew/cask-fonts`
+5. Brew 'em up! `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack discord google-chrome font-fira-code`
 6. `mkdir ~/code`
 7. Clone this repo into `~/code`
 ```
@@ -21,8 +21,6 @@ $ cd code && git clone git@github.com:andreasvirkus/dotfiles.git
 $ ln -s ~/code/dotfiles/slate/.slate.js ~/.slate.js
 $ ln -s ~/code/dotfiles/.profile ~/.profile
 $ ln -s ~/code/dotfiles/.bash_aliases ~/.bash_aliases
-$ ln -s ~/code/dotfiles/.vimrc ~/.vimrc
-$ ln -s ~/code/dotfiles/.tmux.conf ~/.tmux.conf
 ```
 9. Update bash to v5
 ```
@@ -37,7 +35,7 @@ chsh -s /usr/local/bin/bash
 ```
 cp iterm/com.googlecode.iterm2.plist ~/Library/Preferences
 ```
-11. Configure [VSCode extensions & themes](./vscode)
+11. Configure [VSCode extensions & themes](./vscode) & install [Fira code](https://github.com/tonsky/FiraCode)
 12. Turn on FileVault from `System Preferences > Security & Privacy`
 13. Install Firefox Developer Edition, Karabiner Elements, Tuple
 14. Install LastPass and 1Password, etc. on both browsers
