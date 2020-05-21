@@ -9,7 +9,7 @@ My ever-so-handy dotfiles
 ```
 $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_rsa
 ```
-4. Tap into `cask` via `brew tap homebrew/cask-cask`
+4. Tap into `cask` via `brew tap homebrew/cask-cask` (Not needed anymore? Might be bundled with `homebrew`)
 5. Brew 'em up! `brew cask install iterm2 slate fliqlo tmux visual-studio-code sublime-text 1clipboard`
 6. `mkdir ~/code`
 7. Clone this repo into `~/code`
