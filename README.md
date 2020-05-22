@@ -39,10 +39,8 @@ chsh -s /usr/local/bin/bash
 12. Turn on FileVault from `System Preferences > Security & Privacy`
 13. Install Firefox Developer Edition, Karabiner Elements, Tuple
 14. Install LastPass and 1Password, etc. on both browsers
-15. Configure Fliqlo & automatic wallpaper change from `System Preferences > Desktop & Screen Saver` &
-then add the `./change-wallpaper.scrpt` to Automator as a new Quick Action. Now add a keyboard
-shortcut to it via `System Preferences > Keyboard > Shortcuts` and select `Services` from
-the sidebar. Previously used `Cmd + Shift + 8` as the shortcut. Also configure the privacy 
+15. Configure Fliqlo
+16. Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy 
 settings for Automator & Finder; see more https://apple.stackexchange.com/a/276839/254680
 16. In order for Slate to work, enable it via `System Preferences > Security & Privacy > Privacy tab > Accessibility`
 
