@@ -14,6 +14,7 @@ $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_
   - `brew install git bash-completion direnv deno node yarn docker docker-machine kubectl`
   - `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack discord google-chrome font-fira-code`
   - To brew `go` - https://ahmadawais.com/install-go-lang-on-macos-with-homebrew/
+  - Docker steps - https://gist.github.com/andreasvirkus/0c4346c7d658783c75034cafcd67d935
 6. `mkdir ~/code`
 7. Clone this repo into `~/code`
 ```
