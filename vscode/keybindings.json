@@ -20,5 +20,16 @@
   { "key": "cmd+6","command": "workbench.action.openEditorAtIndex6" },
   { "key": "cmd+7","command": "workbench.action.openEditorAtIndex7" },
   { "key": "cmd+8","command": "workbench.action.openEditorAtIndex8" },
-  { "key": "cmd+9","command": "workbench.action.lastEditorInGroup" }
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.lastEditorInGroup"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "-workbench.view.debug"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.duplicateSelection"
+  }
 ]
