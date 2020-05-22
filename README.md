@@ -55,7 +55,7 @@ settings for Automator & Finder; see more https://apple.stackexchange.com/a/2768
   - Set external display as primary by dragging the white bar ontop of the native display in `Arrangements` panel (I know you always forget)
   - Disable auto-dimming of displays
 - Set default view settings in Finder via `Cmd+J` (list, sort by name, etc.)
-- Add `Cmd + .` as `App shortcuts` for the command `Sleep` in `System Preferences > Keyboard > Shortcuts`
+- Add `Cmd + .` as `App shortcuts` for the command `Lock Screen` in `System Preferences > Keyboard > Shortcuts` ([details](https://apple.stackexchange.com/a/336408/254680))
 - Configure Dock (do not display recently opened applications + auto-hide)
 - Make menu-bar auto-hide
 - Configure Screenshots via the options menu by accessing it with `Cmd + Shift + 5` (disable the floating thumbnail and set `~/Pictures/screenshots` as the destination folder)
