@@ -10,7 +10,7 @@ My ever-so-handy dotfiles
 $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_rsa
 ```
 4. Tap into `cask` via `brew tap homebrew/cask-cask homebrew/cask-fonts`
-5. Brew 'em up! 
+5. Brew 'em up!
   - `brew install git bash-completion direnv deno node yarn`
   - `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack discord google-chrome font-fira-code`
   - To brew `go` - https://ahmadawais.com/install-go-lang-on-macos-with-homebrew/
@@ -22,8 +22,9 @@ $ cd code && git clone git@github.com:andreasvirkus/dotfiles.git
 8. Symlink config files
 ```
 $ ln -s ~/code/dotfiles/slate/.slate.js ~/.slate.js
-$ ln -s ~/code/dotfiles/.profile ~/.profile
+$ ln -s ~/code/dotfiles/.bashrc ~/.profile
 $ ln -s ~/code/dotfiles/.bash_aliases ~/.bash_aliases
+$ ln -s ~/code/dotfiles/.vimrc ~/.vimrc
 ```
 9. Update bash to v5
 ```
@@ -40,7 +41,7 @@ chsh -s /usr/local/bin/bash
 13. Install Firefox Developer Edition, Karabiner Elements, Tuple
 14. Install LastPass and 1Password, etc. on both browsers
 15. Configure Fliqlo
-16. Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy 
+16. Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy
 settings for Automator & Finder; see more https://apple.stackexchange.com/a/276839/254680
 16. In order for Slate to work, enable it via `System Preferences > Security & Privacy > Privacy tab > Accessibility`
 
