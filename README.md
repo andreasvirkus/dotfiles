@@ -65,3 +65,5 @@ settings for Automator & Finder; see more https://apple.stackexchange.com/a/2768
 - Pimp that iTerm
   - Minimal style: https://www.felixjung.io/posts/pretty-iterm2-with-a-modern-titlebar
   - Get themes from https://iterm2colorschemes.com/
+- Disable "auto-organize workspaces" from `System Preferences > Mission Control`
+- Disable most of Spotlight's search categories (remember to `touch /Applications/Xcode.app` to see the `Developer` checkbox) 
