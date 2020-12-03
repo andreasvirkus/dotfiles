@@ -74,7 +74,8 @@ alias ca='git commit -a --verbose'
 alias c.='code .'
 
 # Static server
-alias static='python -m SimpleHTTPServer 8000'
+alias static='python -m SimpleHTTPServer'
+alias pystatic='python3 -m http.server'
 
 # Vagrant
 alias vup='vagrant up && vagrant ssh'
