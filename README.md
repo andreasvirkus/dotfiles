@@ -12,7 +12,7 @@ $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_
 4. Tap into `cask` via `brew tap homebrew/cask-cask homebrew/cask-fonts`
 5. Brew 'em up!
   - `brew install git bash-completion direnv deno node yarn docker docker-machine kubectl`
-  - `brew cask install iterm2 slate fliqlo visual-studio-code sublime-text 1clipboard kap spotify slack discord google-chrome font-fira-code`
+  - `brew install --cask iterm2 fliqlo visual-studio-code kap rectangle spotify slack discord google-chrome font-fira-code`
   - To brew `go` - https://ahmadawais.com/install-go-lang-on-macos-with-homebrew/
   - Docker steps - https://gist.github.com/andreasvirkus/0c4346c7d658783c75034cafcd67d935
 6. `mkdir ~/code`
