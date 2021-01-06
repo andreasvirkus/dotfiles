@@ -26,6 +26,12 @@ $ ln -s ~/code/dotfiles/slate/.slate.js ~/.slate.js
 $ ln -s ~/code/dotfiles/.bashrc ~/.profile
 $ ln -s ~/code/dotfiles/.bash_aliases ~/.bash_aliases
 $ ln -s ~/code/dotfiles/.vimrc ~/.vimrc
+
+# Setup iTerm2 profile http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/
+# Specify the preferences directory
+$ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles/iterm2"
+# Tell iTerm2 to use the custom preferences in the directory
+$ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 ```
 9. Update bash to v5
 ```
@@ -66,4 +72,4 @@ settings for Automator & Finder; see more https://apple.stackexchange.com/a/2768
   - Minimal style: https://www.felixjung.io/posts/pretty-iterm2-with-a-modern-titlebar
   - Get themes from https://iterm2colorschemes.com/
 - Disable "auto-organize workspaces" from `System Preferences > Mission Control`
-- Disable most of Spotlight's search categories (remember to `touch /Applications/Xcode.app` to see the `Developer` checkbox) 
+- Disable most of Spotlight's search categories (remember to `touch /Applications/Xcode.app` to see the `Developer` checkbox)
