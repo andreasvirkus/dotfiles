@@ -4,34 +4,29 @@ My ever-so-handy dotfiles
 ## Fresh setup (MacOS)
 
 1. Open up Terminal
-2. Install `homebrew`
-3. Generate a new SSH key and save it to GitHub, GitLab (also store it for ssh-agent)
+2. Install [homebrew](https://brew.sh)
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+3. Generate a new SSH key and save it to GitHub, GitLab (& also store it for ssh-agent)
 ```
 $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_rsa
 ```
-4. Tap into `cask` via `brew tap homebrew/cask-cask homebrew/cask-fonts`
+4. Tap into `cask` via `brew tap homebrew/cask-cask && brew tap homebrew/cask-fonts`
 5. Brew 'em up!
-  - `brew install git bash-completion direnv deno node yarn docker docker-machine kubectl`
-  - `brew install --cask iterm2 fliqlo visual-studio-code kap rectangle spotify slack discord google-chrome font-fira-code`
-  - To brew `go` - https://ahmadawais.com/install-go-lang-on-macos-with-homebrew/
-  - Docker steps - https://gist.github.com/andreasvirkus/0c4346c7d658783c75034cafcd67d935
-6. `mkdir ~/code`
-7. Clone this repo into `~/code`
+  - `brew install git gh deno node yarn go kubectl`
+  - `brew install --cask fliqlo visual-studio-code brave-browser kap rectangle spotify slack docker discord font-fira-code`
+6. `mkdir -p ~/code/personal && mkdir ~/code/kanban && mkdir ~/notes`
+7. Create basic code directories & clone this repo
 ```
-$ cd code && git clone git@github.com:andreasvirkus/dotfiles.git
+$ cd code && gh repo clone andreasvirkus/dotfiles && cd dotfiles
+$ cd ~/notes && gh repo clone andreasvirkus/notes
 ```
 8. Symlink config files
 ```
-$ ln -s ~/code/dotfiles/slate/.slate.js ~/.slate.js
-$ ln -s ~/code/dotfiles/.bashrc ~/.profile
-$ ln -s ~/code/dotfiles/.bash_aliases ~/.bash_aliases
-$ ln -s ~/code/dotfiles/.vimrc ~/.vimrc
-
-# Setup iTerm2 profile http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/
-# Specify the preferences directory
-$ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles/iterm2"
-# Tell iTerm2 to use the custom preferences in the directory
-$ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+$ ln -s ~/code/personal/dotfiles/.bashrc ~/.profile
+$ ln -s ~/code/personal/dotfiles/.bash_aliases ~/.bash_aliases
+$ ln -s ~/code/personal/dotfiles/.vimrc ~/.vimrc
 ```
 9. Update bash to v5
 ```
@@ -45,12 +40,12 @@ chsh -s /usr/local/bin/bash
 10. Silence the "Last login" messages of MOTD (`touch ~/.hushlogin`)
 11. Configure [VSCode extensions & themes](./vscode) & install [Fira code](https://github.com/tonsky/FiraCode)
 12. Turn on FileVault from `System Preferences > Security & Privacy`
-13. Install Firefox Developer Edition, Karabiner Elements, Tuple
+13. Install Firefox Developer Edition, Tuple
 14. Install LastPass and 1Password, etc. on both browsers
 15. Configure Fliqlo
 16. Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy
 settings for Automator & Finder; see more https://apple.stackexchange.com/a/276839/254680
-16. In order for Slate to work, enable it via `System Preferences > Security & Privacy > Privacy tab > Accessibility`
+16. Configure Rectangle
 
 ## Tweaks
 
