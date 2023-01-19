@@ -15,7 +15,7 @@ $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_
 4. Tap into `cask` via `brew tap homebrew/cask-cask && brew tap homebrew/cask-fonts`
 5. Brew 'em up!
   - `brew install git gh deno node yarn go kubectl`
-  - `brew install --cask fliqlo visual-studio-code brave-browser kap rectangle spotify slack docker discord font-fira-code`
+  - `brew install --cask fliqlo visual-studio-code brave-browser kap rectangle spotify slack docker discord font-fira-code cron`
 6. `mkdir -p ~/code/personal && mkdir ~/code/kanban && mkdir ~/notes`
 7. Create basic code directories & clone this repo
 ```
