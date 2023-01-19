@@ -1,6 +1,8 @@
 # Use this to list all extensions and create install commands
 # code --list-extensions | xargs -L 1 echo code --install-extension
 
+# Alternative, list them in extensions.json
+
 # Latest list of extensions to install:
 code --install-extension azemoh.one-monokai
 code --install-extension christian-kohler.npm-intellisense
