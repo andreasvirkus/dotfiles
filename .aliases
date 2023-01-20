@@ -1,6 +1,14 @@
 ###
-# Aliases
+# Universal aliases for both bash and zsh
 ###
+
+# Usage with .bashrc
+# if [ -f ~/.aliases ]; then
+#     . ~/.aliases
+# fi
+
+# Usage with zsh
+# source $HOME/.aliases
 
 # General
 alias c='clear'

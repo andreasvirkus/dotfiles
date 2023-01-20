@@ -19,14 +19,14 @@ $ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_
 6. `mkdir -p ~/code/personal && mkdir ~/code/kanban && mkdir ~/notes`
 7. Create basic code directories & clone this repo
 ```
-$ cd code && gh repo clone andreasvirkus/dotfiles && cd dotfiles
-$ cd ~/notes && gh repo clone andreasvirkus/notes
+cd code && gh repo clone andreasvirkus/dotfiles && cd dotfiles
+cd ~/notes && gh repo clone andreasvirkus/notes
 ```
 8. Symlink config files
 ```
-$ ln -s ~/code/personal/dotfiles/.bashrc ~/.profile
-$ ln -s ~/code/personal/dotfiles/.bash_aliases ~/.bash_aliases
-$ ln -s ~/code/personal/dotfiles/.vimrc ~/.vimrc
+ln -s ~/code/personal/dotfiles/.bashrc ~/.profile
+ln -s ~/code/personal/dotfiles/.aliases ~/.aliases
+ln -s ~/code/personal/dotfiles/.vimrc ~/.vimrc
 ```
 9. Update bash to v5
 ```
