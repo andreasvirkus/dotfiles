@@ -28,7 +28,13 @@ ln -s ~/code/personal/dotfiles/.bashrc ~/.profile
 ln -s ~/code/personal/dotfiles/.aliases ~/.aliases
 ln -s ~/code/personal/dotfiles/.vimrc ~/.vimrc
 ```
-9. Update bash to v5
+9. Save 2 years from your life + configure git
+```
+git config --global --add --bool push.autoSetupRemote true
+git config --global user.name "andreasvirkus"
+git config --global user.email "andreasvirkus@gmail.com"
+```
+10. Update bash to v5
 ```
 brew install bash
 # Add the new shell to the list of allowed shells
@@ -37,15 +43,15 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 # And now restart iTerm
 ```
-10. Silence the "Last login" messages of MOTD (`touch ~/.hushlogin`)
-11. Configure [VSCode extensions & themes](./vscode) & install [Fira code](https://github.com/tonsky/FiraCode)
-12. Turn on FileVault from `System Preferences > Security & Privacy`
-13. Install Firefox Developer Edition, Tuple
-14. Install LastPass and 1Password, etc. on both browsers
-15. Configure Fliqlo
-16. Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy
+11.  Silence the "Last login" messages of MOTD (`touch ~/.hushlogin`)
+12.  Configure [VSCode extensions & themes](./vscode) & install [Fira code](https://github.com/tonsky/FiraCode)
+13.  Turn on FileVault from `System Preferences > Security & Privacy`
+14.  Install Firefox Developer Edition, Tuple
+15.  Install LastPass and 1Password, etc. on both browsers
+16.  Configure Fliqlo
+17.  Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy
 settings for Automator & Finder; see more https://apple.stackexchange.com/a/276839/254680
-16. Configure Rectangle
+18.  Configure Rectangle
 
 ## Tweaks
 
