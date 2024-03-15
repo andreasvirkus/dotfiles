@@ -8,15 +8,12 @@ My ever-so-handy dotfiles
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-3. Generate a new SSH key and save it to GitHub, GitLab (& also store it for ssh-agent)
-```
-$ ssh-keygen -t rsa -b 4096 -C "andreas@currentdomain.com" && ssh-add ~/.ssh/id_rsa
-```
-4. Tap into `cask` via `brew tap homebrew/cask-cask && brew tap homebrew/cask-fonts`
-5. Brew 'em up!
+3. Tap into `cask` via `brew tap homebrew/cask-cask && brew tap homebrew/cask-fonts`
+4. Brew 'em up!
   - `brew install git gh deno node yarn go kubectl ngrok`
-  - `brew install --cask fliqlo visual-studio-code brave-browser kap rectangle spotify slack docker discord google-cloud-sdk font-fira-code cron obsidian steam figma blender`
-6. `mkdir -p ~/code/personal && mkdir ~/code/kanban && mkdir ~/notes`
+  - `brew install --cask fliqlo visual-studio-code zed brave-browser kap rectangle spotify slack docker discord google-cloud-sdk font-fira-code cron obsidian steam figma blender warp`
+5. `mkdir -p ~/code/personal && mkdir ~/code/kanban && mkdir ~/notes`
+6. `gh auth login` > HTTPS
 7. Create basic code directories & clone this repo
 ```
 cd code && gh repo clone andreasvirkus/dotfiles && cd dotfiles
@@ -67,10 +64,6 @@ settings for Automator & Finder; see more https://apple.stackexchange.com/a/2768
 - Configure Dock (do not display recently opened applications + auto-hide)
 - Make menu-bar auto-hide
 - Configure Screenshots via the options menu by accessing it with `Cmd + Shift + 5` (disable the floating thumbnail and set `~/Pictures/screenshots` as the destination folder)
-- Add margins to iTerm - https://imgur.com/a/k2WOf
 - Run `echo 'source "$HOME/.bashrc"' >> ~/.bash_profile` so `tmux` would also source `.bashrc`
-- Pimp that iTerm
-  - Minimal style: https://www.felixjung.io/posts/pretty-iterm2-with-a-modern-titlebar
-  - Get themes from https://iterm2colorschemes.com/
 - Disable "auto-organize workspaces" from `System Preferences > Mission Control`
 - Disable most of Spotlight's search categories (remember to `touch /Applications/Xcode.app` to see the `Developer` checkbox)
