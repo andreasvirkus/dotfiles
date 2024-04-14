@@ -25,13 +25,13 @@ ln -s ~/code/personal/dotfiles/.bashrc ~/.profile
 ln -s ~/code/personal/dotfiles/.aliases ~/.aliases
 ln -s ~/code/personal/dotfiles/.vimrc ~/.vimrc
 ```
-9. Save 2 years from your life + configure git
+9. Configure git
 ```
 git config --global --add --bool push.autoSetupRemote true
 git config --global user.name "andreasvirkus"
 git config --global user.email "andreasvirkus@gmail.com"
 ```
-10. Update bash to v5
+10. Update bash to v5 (skip if fine with zsh)
 ```
 brew install bash
 # Add the new shell to the list of allowed shells
@@ -43,12 +43,11 @@ chsh -s /usr/local/bin/bash
 11.  Silence the "Last login" messages of MOTD (`touch ~/.hushlogin`)
 12.  Configure [VSCode extensions & themes](./vscode) & install [Fira code](https://github.com/tonsky/FiraCode)
 13.  Turn on FileVault from `System Preferences > Security & Privacy`
-14.  Install Firefox Developer Edition, Tuple
-15.  Install LastPass and 1Password, etc. on both browsers
-16.  Configure Fliqlo
-17.  Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy
+14.  Install 1Password, TabsCount extensions
+15.  Configure Fliqlo
+16.  Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy
 settings for Automator & Finder; see more https://apple.stackexchange.com/a/276839/254680
-18.  Configure Rectangle
+17.  Configure Rectangle
 
 ## Tweaks
 
