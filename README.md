@@ -11,7 +11,7 @@ My ever-so-handy dotfiles
 3. Tap into `cask` via `brew tap homebrew/cask-cask && brew tap homebrew/cask-fonts`
 4. Brew 'em up!
   - `brew install git gh deno node yarn go kubectl ngrok`
-  - `brew install --cask fliqlo visual-studio-code zed brave-browser kap rectangle spotify slack docker discord google-cloud-sdk font-fira-code cron obsidian steam figma blender warp`
+  - `brew install --cask fliqlo visual-studio-code 1password zed brave-browser kap rectangle spotify slack docker discord google-cloud-sdk font-fira-code cron obsidian steam figma blender warp`
 5. `mkdir -p ~/code/personal && mkdir ~/code/kanban && mkdir ~/notes`
 6. `gh auth login` > HTTPS
 7. Create basic code directories & clone this repo
