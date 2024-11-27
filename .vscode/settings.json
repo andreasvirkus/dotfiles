@@ -26,7 +26,6 @@
   },
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.wordWrap": "bounded",
-  "workbench.activityBar.visible": false,
   "workbench.startupEditor": "newUntitledFile",
   "materialTheme.fixIconsRunning": false,
   "workbench.iconTheme": "eq-material-theme-icons-darker",
@@ -44,5 +43,6 @@
   ],
   "workbench.colorCustomizations": {},
   "materialTheme.accentPrevious": "",
-  "prettier.eslintIntegration": true
+  "prettier.eslintIntegration": true,
+  "workbench.activityBar.location": "hidden"
 }
