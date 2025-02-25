@@ -50,6 +50,7 @@ chsh -s /usr/local/bin/bash
 16.  Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy
 settings for Automator & Finder; see more https://apple.stackexchange.com/a/276839/254680
 17.  Configure Rectangle
+18.  Configure git - https://blog.gitbutler.com/how-git-core-devs-configure-git/
 
 ## Tweaks
 
