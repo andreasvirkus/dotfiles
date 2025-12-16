@@ -69,3 +69,4 @@ settings for Automator & Finder; see more https://apple.stackexchange.com/a/2768
 - Run `echo 'source "$HOME/.bashrc"' >> ~/.bash_profile` so `tmux` would also source `.bashrc`
 - Disable "auto-organize workspaces" from `System Preferences > Mission Control`
 - Disable most of Spotlight's search categories (remember to `touch /Applications/Xcode.app` to see the `Developer` checkbox)
+- Disable "Reveal desktop" from `Desktop & Dock` in System Settings, under `Desktop & Stage Manager`.
