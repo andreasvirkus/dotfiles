@@ -8,32 +8,31 @@ My ever-so-handy dotfiles
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-3. Tap into `cask` via `brew tap homebrew/cask-cask && brew tap homebrew/cask-fonts`
-4. Brew 'em up!
+3. Brew 'em up!
 ```
 brew install git gh deno node yarn go kubectl ngrok jq
-brew install --cask fliqlo visual-studio-code 1password zed brave-browser kap rectangle spotify slack docker discord google-cloud-sdk font-fira-code cron obsidian steam figma blender warp tableplus orbstack maccy
+brew install --cask fliqlo raycast visual-studio-code 1password zed brave-browser kap rectangle spotify slack docker discord google-cloud-sdk font-fira-code cron obsidian steam figma blender warp tableplus orbstack maccy granola
 ```
-5. `mkdir -p ~/code/personal && mkdir ~/code/kanban && mkdir ~/notes`
-6. `gh auth login` > HTTPS
-7. Create basic code directories & clone this repo
+4. `gh auth login` > HTTPS
+5. Create basic code directories & clone this repo
 ```
+mkdir -p ~/code/personal && mkdir ~/code/kanban && mkdir ~/notes
 cd code && gh repo clone andreasvirkus/dotfiles && cd dotfiles
 cd ~/notes && gh repo clone andreasvirkus/notes
 ```
-8. Symlink config files
+6. Symlink config files
 ```
 ln -s ~/code/personal/dotfiles/.bashrc ~/.profile
 ln -s ~/code/personal/dotfiles/.aliases ~/.aliases
 ln -s ~/code/personal/dotfiles/.vimrc ~/.vimrc
 ```
-9. Configure git
+7. Configure git
 ```
 git config --global --add --bool push.autoSetupRemote true
 git config --global user.name "andreasvirkus"
 git config --global user.email "andreasvirkus@gmail.com"
 ```
-10. Update bash to v5 (skip if fine with zsh)
+8. Update bash to v5 (skip if fine with zsh)
 ```
 brew install bash
 # Add the new shell to the list of allowed shells
@@ -42,15 +41,15 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 # And now restart iTerm
 ```
-11.  Silence the "Last login" messages of MOTD (`touch ~/.hushlogin`)
-12.  Configure [VSCode extensions & themes](./vscode) & install [Fira code](https://github.com/tonsky/FiraCode)
-13.  Turn on FileVault from `System Preferences > Security & Privacy`
-14.  Install 1Password, TabsCount extensions
-15.  Configure Fliqlo
-16.  Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy
+9.  Silence the "Last login" messages of MOTD (`touch ~/.hushlogin`)
+10.  Configure [VSCode extensions & themes](./vscode) & install [Fira code](https://github.com/tonsky/FiraCode)
+11.  Turn on FileVault from `System Preferences > Security & Privacy`
+12.  Install 1Password, TabsCount extensions
+13.  Configure Fliqlo
+14.  Create automatic wallpaper change Applescript (`./change-wallpaper.scrpt`) via Automator. Also configure the privacy
 settings for Automator & Finder; see more https://apple.stackexchange.com/a/276839/254680
-17.  Configure Rectangle
-18.  Configure git - https://blog.gitbutler.com/how-git-core-devs-configure-git/
+15.  Configure Rectangle
+16.  Configure git - https://blog.gitbutler.com/how-git-core-devs-configure-git/
 
 ## Tweaks
 
