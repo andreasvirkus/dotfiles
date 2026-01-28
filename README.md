@@ -10,6 +10,9 @@ My ever-so-handy dotfiles
 ```
 3. Brew 'em up!
 ```
+brew bundle install # Brewfile
+
+# Or hand-pick what's needed from:
 brew install git gh deno node yarn go kubectl ngrok jq mkcert claude-code
 brew install --cask fliqlo raycast visual-studio-code 1password zed brave-browser kap rectangle spotify slack docker discord google-cloud-sdk font-fira-code cron obsidian steam figma blender warp tableplus orbstack maccy granola
 ```
